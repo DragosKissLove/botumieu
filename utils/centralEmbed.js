@@ -54,7 +54,7 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
+                .setImage('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png')
                 .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
@@ -260,7 +260,7 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
+                .setImage('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png')
                 .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
@@ -365,6 +365,7 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
 
