@@ -20,7 +20,7 @@ class CentralEmbedHandler {
                     '',
                     '✨ *Ready to fill this place with amazing music?*'
                 ].join('\n'))
-                .setColor(#66FF99) 
+                .setColor(0x66FF99) 
                 .addFields(
                     {
                         name: '🎯 Quick Examples',
@@ -365,6 +365,7 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
 
