@@ -12,7 +12,7 @@ class CentralEmbedHandler {
             const channel = await this.client.channels.fetch(channelId);
             
             const embed = new EmbedBuilder()
-            .setAuthor({ name: 'Recele Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
+            .setAuthor({ name: 'Recele Control Center', iconURL: 'https://cdn.discordapp.com/emojis/1358588088338878571.gif', url: 'https://discord.gg/xDN3eSyfqU' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -192,8 +192,8 @@ class CentralEmbedHandler {
                 embed = new EmbedBuilder()
                     .setAuthor({ 
                         name: `${trackInfo.title}`, 
-                        iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif',
-                        url: 'https://discord.gg/xQF9f9yUEM' 
+                        iconURL: 'https://cdn.discordapp.com/emojis/1358588088338878571.gif',
+                        url: 'https://discord.gg/xDN3eSyfqU' 
                     })
                     .setDescription([
                         `**🎤 Artist:** ${trackInfo.author}`,
@@ -206,10 +206,10 @@ class CentralEmbedHandler {
                         '🎶 *Enjoying the vibes? Type more song names below to keep the party going!*'
                     ].join('\n'))
                     .setColor(embedColor)
-                    .setThumbnail(trackInfo.thumbnail || 'https://cdn.discordapp.com/emojis/896724352949706762.gif')
+                    .setThumbnail(trackInfo.thumbnail || 'https://cdn.discordapp.com/emojis/1358588088338878571.gif')
                     .setImage(trackInfo.paused ? null : 'https://i.ibb.co/KzbPV8jd/aaa.gif')
                     .setFooter({ 
-                        text: `Ultimate Music Bot • ${statusText} Developed By GlaceYT`,
+                        text: `Recele Bot • ${statusText} Developed By .Regele`,
                         iconURL: this.client.user.displayAvatarURL()
                     })
                     .setTimestamp();
@@ -218,7 +218,7 @@ class CentralEmbedHandler {
             } else {
            
                 embed = new EmbedBuilder()
-                .setAuthor({ name: 'Recele Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
+                .setAuthor({ name: 'Recele Control Center', iconURL: 'https://cdn.discordapp.com/emojis/1358588088338878571.gif', url: 'https://discord.gg/xDN3eSyfqU' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -226,7 +226,7 @@ class CentralEmbedHandler {
                     '',
                     '✨ *Ready to fill this place with amazing music?*'
                 ].join('\n'))
-                .setColor(0x9966ff) 
+                .setColor(0x42A362) 
                 .addFields(
                     {
                         name: '🎯 Quick Examples',
@@ -260,8 +260,8 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
-                .setThumbnail('https://cdn.discordapp.com/attachments/1234567890/1234567890/music_note.gif') // Add a cute music note gif
+                .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
+                .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
                     iconURL: this.client.user.displayAvatarURL()
@@ -365,6 +365,7 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
 
