@@ -89,7 +89,7 @@ class StatusManager {
                 return;
             }
 
-            const statusText = `🎵 ${trackTitle}`;
+            const statusText = `👑🎵 ${trackTitle}`;
 
         
             let success = await this.createVoiceStatusAPI(voiceChannel.id, statusText);
@@ -198,7 +198,7 @@ class StatusManager {
 
     async createChannelTopic(voiceChannel, trackTitle) {
         try {
-            const topicText = `🎵 Now Playing: ${trackTitle}`;
+            const topicText = `👑🎵 Now Playing: ${trackTitle}`;
             await voiceChannel.setTopic(topicText);
             console.log(`✅ Voice channel topic created: ${topicText}`);
             return true;
@@ -270,14 +270,14 @@ class StatusManager {
         this.stopCurrentStatus();
         this.isPlaying = false;
         
-        const defaultActivity = `🎵 Ready for music!`;
+        const defaultActivity = `👑🎵 Gata De Distractie!`;
         
         await this.client.user.setPresence({
             activities: [{
                 name: defaultActivity,
                 type: ActivityType.Watching
             }],
-            status: 'online'
+            status: 'idle'
         });
         
         console.log(`✅ Status reset to: ${defaultActivity}`);
@@ -299,7 +299,7 @@ class StatusManager {
                     name: `🎸 Music in ${serverCount} servers`,
                     type: ActivityType.Playing
                 }],
-                status: 'online'
+                status: 'idle'
             });
             //console.log(`✅ Server count status set: ${serverCount} servers`);
         }
@@ -366,3 +366,4 @@ class StatusManager {
 }
 
 module.exports = StatusManager;
+
