@@ -54,8 +54,8 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png')
-                .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
+                .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
+                .setThumbnail('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
                     iconURL: this.client.user.displayAvatarURL()
@@ -206,7 +206,7 @@ class CentralEmbedHandler {
                         '🎶 *Enjoying the vibes? Type more song names below to keep the party going!*'
                     ].join('\n'))
                     .setColor(embedColor)
-                    .setThumbnail(trackInfo.thumbnail || 'https://cdn.discordapp.com/emojis/1358588088338878571.gif')
+                    .setThumbnail(trackInfo.thumbnail || 'https://i.ibb.co/BK4LnCFb/banner-bot.png')
                     .setImage(trackInfo.paused ? null : 'https://i.ibb.co/KzbPV8jd/aaa.gif')
                     .setFooter({ 
                         text: `Recele Bot • ${statusText} Developed By .Regele`,
@@ -260,8 +260,8 @@ class CentralEmbedHandler {
                         inline: false
                     }
                 )
-                .setImage('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png')
-                .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
+                .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
+                .setThumbnail('https://i.ibb.co/Fb7kGYm4/6e7886a9-b993-4aab-8e93-888b96550199.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
                     iconURL: this.client.user.displayAvatarURL()
@@ -365,6 +365,7 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
 
