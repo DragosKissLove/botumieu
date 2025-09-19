@@ -20,7 +20,7 @@ class CentralEmbedHandler {
                     '',
                     '✨ *Ready to fill this place with amazing music?*'
                 ].join('\n'))
-                .setColor(0x66FF99) 
+                .setColor(0x42A362) 
                 .addFields(
                     {
                         name: '🎯 Quick Examples',
@@ -55,7 +55,7 @@ class CentralEmbedHandler {
                     }
                 )
                 .setImage('https://i.ibb.co/BK4LnCFb/banner-bot.png')
-                .setThumbnail('https://cdn.discordapp.com/attachments/1234567890/1234567890/music_note.gif') // Add a cute music note gif
+                .setThumbnail('https://i.ibb.co/BK4LnCFb/banner-bot.png') // Add a cute music note gif
                 .setFooter({ 
                     text: 'Recele Bot • Developed By .Regele!',
                     iconURL: this.client.user.displayAvatarURL()
@@ -365,6 +365,7 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
 
 
 
