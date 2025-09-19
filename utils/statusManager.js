@@ -270,7 +270,7 @@ class StatusManager {
         this.stopCurrentStatus();
         this.isPlaying = false;
         
-        const defaultActivity = `👑🎵 Gata De Distractie!`;
+        const defaultActivity = `PornHub`;
         
         await this.client.user.setPresence({
             activities: [{
@@ -366,4 +366,5 @@ class StatusManager {
 }
 
 module.exports = StatusManager;
+
 
